@@ -4,8 +4,9 @@
 #define Pi 3.1415926
 #include "math.h"
 //DFT算法
-void DFT(float *Input, int Amount, float *outputRe, float *outputIm){
 /*Input 输入数组，Amount 数组长度 outputRe 实数输出部分 outputIm虚数部分 */
+void DFT(float *Input, int Amount, float *outputRe, float *outputIm){
+
 	int n, k;//循环控制变量
 	float Cos, Sin;//临时变量
 /*
